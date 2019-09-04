@@ -3,9 +3,6 @@ package json_parser;
 public class Artist implements Comparable<Artist> {
     public String name;
     public int rank;
-
-	public Artist() {
-		}
 	
   	public Artist(String name, int rank) {
     	this.name = name; 
